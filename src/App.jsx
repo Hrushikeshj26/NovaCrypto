@@ -13,7 +13,7 @@ import Blog from './pages/Blog'
 function App() {
 
   return (
-    <div className='app'>
+    <div className='app overflow-hidden'>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>

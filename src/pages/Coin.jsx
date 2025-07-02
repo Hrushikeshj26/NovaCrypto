@@ -46,7 +46,7 @@ function Coin() {
                     <img src={coinData.image.large} alt="img" />
                     <p><b>{coinData.name}({coinData.symbol.toUpperCase()})</b></p>
                 </div>
-                <div className='w-90 md:w-1/2 h-[25rem] m-4 '>
+                <div className='w-85 md:w-1/2 h-[25rem] m-4 '>
                     <LineChart histotricalData={histotricalData}/>
                 </div>
                 <div className='crypto-data flex flex-col w-[45rem] md:w-full items-center justify-center'>
