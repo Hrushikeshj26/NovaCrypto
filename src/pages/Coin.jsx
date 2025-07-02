@@ -46,10 +46,10 @@ function Coin() {
                     <img src={coinData.image.large} alt="img" />
                     <p><b>{coinData.name}({coinData.symbol.toUpperCase()})</b></p>
                 </div>
-                <div className='w-1/2 h-[25rem] m-4 '>
+                <div className='md:w-1/2 h-[25rem] m-4 '>
                     <LineChart histotricalData={histotricalData}/>
                 </div>
-                <div className='crypto-data flex flex-col w-full items-center justify-center'>
+                <div className='crypto-data flex flex-col w-[45rem] md:w-full items-center justify-center'>
                     <ul>
                         <li>Crypto Market Rank</li>
                         <li>{coinData.market_cap_rank}</li>
