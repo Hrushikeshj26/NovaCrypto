@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(120deg, #1f0036, #2c1a4f, #0a2640);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.crypto-data ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 50%;
+  border-bottom: solid 1px white;
+}
+
+.crypto-data ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
